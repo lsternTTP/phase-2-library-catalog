@@ -1,0 +1,9 @@
+.search-bar {
+  max-width: 350px;
+  margin: auto;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-evenly;
+}

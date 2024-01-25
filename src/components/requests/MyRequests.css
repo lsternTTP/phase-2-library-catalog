@@ -1,0 +1,9 @@
+.requests {
+  margin: 15px;
+  width: 40%;
+  border: 2px solid #dcedf5;
+}
+
+.requests-h2 {
+  text-align: center;
+}

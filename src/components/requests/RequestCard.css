@@ -1,0 +1,26 @@
+.request-card {
+  padding: 30px;
+  margin: 15px;
+  background-color: #dcedf5;
+  box-shadow: 5px 5px #bfbfbf;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.request-info {
+  width: 70%;
+}
+
+.request-card:hover {
+  scale: 1.005;
+}
+
+.request-img {
+  height: 100px;
+}
+
+.cancel-request-button {
+  height: 30px;
+  align-self: flex-end;
+  background-color: white;
+}

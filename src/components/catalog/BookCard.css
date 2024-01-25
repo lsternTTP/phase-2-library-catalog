@@ -1,0 +1,34 @@
+.book-card {
+  padding: 30px;
+  margin: 15px;
+  background-color: #dcedf5;
+  box-shadow: 5px 5px #bfbfbf;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.book-info {
+  width: 70%;
+}
+
+.book-card:hover {
+  scale: 1.005;
+}
+
+.book-publishing-info {
+  font-style: italic;
+}
+
+.requests-button {
+  height: 50px;
+  align-self: flex-end;
+  background-color: white;
+}
+
+.requests-button:hover {
+  background-color: #e7f9e7;
+}
+
+img {
+  height: 200px;
+}
