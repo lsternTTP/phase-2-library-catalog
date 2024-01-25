@@ -13,7 +13,7 @@ export default function BookCard(props) {
   return (
     <div className="book-card">
 
-      <img src={images("${props.item.img}")} />
+      <img src={props.item.img} />
 
       <div className="book-info">
         <h2 className="book-title">{props.item.title}</h2>
