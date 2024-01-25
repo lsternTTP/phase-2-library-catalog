@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/phase-2-library-catalog/static/css/main.b7a25a2a.css",
+    "main.js": "/phase-2-library-catalog/static/js/main.267bbd04.js",
+    "index.html": "/phase-2-library-catalog/index.html",
+    "main.b7a25a2a.css.map": "/phase-2-library-catalog/static/css/main.b7a25a2a.css.map",
+    "main.267bbd04.js.map": "/phase-2-library-catalog/static/js/main.267bbd04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7a25a2a.css",
+    "static/js/main.267bbd04.js"
+  ]
+}
