@@ -12,7 +12,7 @@ export default function RequestCard(props) {
   return (
     <div className="request-card">
 
-      <img className="request-img" src={props.item.img} />
+      <img className="request-img" src={props.item.img} alt={`book cover of ${props.item.title} by ${props.item.author}`}/>
 
       <div className="request-info">
         <h2 className="request-title">{props.item.title}</h2>

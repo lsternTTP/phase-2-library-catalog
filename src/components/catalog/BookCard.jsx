@@ -13,7 +13,7 @@ export default function BookCard(props) {
   return (
     <div className="book-card">
 
-      <img src={props.item.img} />
+      <img src={props.item.img} alt={`book cover of ${props.item.title} by ${props.item.author}`}/>
 
       <div className="book-info">
         <h2 className="book-title">{props.item.title}</h2>
