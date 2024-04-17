@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './MyRequests.css';
 import RequestCard from './RequestCard';
 

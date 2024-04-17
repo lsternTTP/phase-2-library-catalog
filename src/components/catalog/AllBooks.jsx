@@ -10,7 +10,7 @@ export default function AllBooks(props) {
 
   const runSearchHandler = (term) => {
     setAllBooks(() => {
-      if (term == "") {
+      if (term === "") {
         return props.books;
       }
 
@@ -26,7 +26,7 @@ export default function AllBooks(props) {
 
 
   const saveRequestHandler = (newRequest) => {
-    if (requests.find(book => book.id == newRequest.id)) {
+    if (requests.find(book => book.id === newRequest.id)) {
       alert("You already requested this item!");
       return
     }
@@ -38,7 +38,7 @@ export default function AllBooks(props) {
 
   const deleteRequestHandler = (requestID) => {
     setRequests(() => {
-      return requests.filter((obj) => obj.id != requestID)
+      return requests.filter((obj) => obj.id !== requestID)
     });
   }
 

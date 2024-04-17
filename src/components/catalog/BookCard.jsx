@@ -1,5 +1,4 @@
 import './BookCard.css';
-const images = require.context('./', true);
 
 export default function BookCard(props) {
 
